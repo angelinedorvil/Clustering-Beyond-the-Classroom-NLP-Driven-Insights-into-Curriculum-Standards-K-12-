@@ -14,28 +14,17 @@ Hugging Face Transformers: Pretrained model integration and sequence classificat
 PyTorch: Model training, evaluation, and tensor operations.  
 Datasets & Evaluate: Data handling and metric computation.
 
-**Setup and Running the Project**
+**Setup and Running the Project**  
 Clone the repository:
-Copy code
 git clone https://github.com/angelinedorvil/Clustering-Beyond-the-Classroom-NLP-Driven-Insights-into-Curriculum-Standards-K-12
-cd curriculum-nlp-classification
-Install Dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Run the Training/Evaluation Scripts:
-bash
-Copy code
-python train.py
-python evaluate.py
-(Adjust filenames as per your code structure.)
-Challenges and Learning Outcomes
+
+**Challenges and Learning Outcomes**  
 Implementing this project required dealing with long sequence handling, exploring various clustering schemes, managing imbalanced datasets, and implementing ensemble methods. Through iterative experimentation, improvements were made in model selection, hyperparameter tuning, and data preprocessing strategies. This process enhanced understanding of NLP pipelines, model performance trade-offs, and the sensitivity of classification accuracy to curriculum structuring.
 
-Future Directions
+**Future Directions**  
+Experiment with More Architectures: Investigate other transformer models (e.g., T5, XLNet) for potentially improved performance.  
+Refine Clustering Schemes: Incorporate domain knowledge or similarity-based clustering to refine grade-level groupings.  
+Multilingual/Multisubject Expansion: Extend the approach to non-English curricula or other subject domains.
 
-Experiment with More Architectures: Investigate other transformer models (e.g., T5, XLNet) for potentially improved performance.
-Refine Clustering Schemes: Incorporate domain knowledge or similarity-based clustering to refine grade-level groupings.
-Multilingual Expansion: Extend the approach to non-English curricula or other subject domains.
-Contribution
+**Contribution**  
 Contributions, suggestions, and pull requests are welcome! Whether refining the clustering logic or integrating new models, collaborative efforts can help this project evolve into a more robust tool for analyzing educational standards.
